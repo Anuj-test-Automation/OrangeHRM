@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CucumberTestSuite" parallel="tests">
+
+    <test name="Selenium_Cucumber_BDD">
+        <classes>
+            <!-- Specify the fully qualified name of your TestRunner class -->
+            <class name="orgOrangeHrmRunner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
